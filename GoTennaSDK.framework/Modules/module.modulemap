@@ -1,0 +1,6 @@
+framework module GoTennaSDK {
+  umbrella header "GoTennaSDK.h"
+
+  export *
+  module * { export * }
+}

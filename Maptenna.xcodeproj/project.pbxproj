@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FAE66AE31A632A1D3542A58 /* libPods-Maptenna.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FABD7547A9681C524D5529C /* libPods-Maptenna.a */; };
+		94011D631EB5314600620D7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94011D551EB5314600620D7B /* AppDelegate.m */; };
+		94011D641EB5314600620D7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94011D561EB5314600620D7B /* Assets.xcassets */; };
+		94011D651EB5314600620D7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94011D571EB5314600620D7B /* LaunchScreen.storyboard */; };
+		94011D661EB5314600620D7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94011D591EB5314600620D7B /* Main.storyboard */; };
+		94011D671EB5314600620D7B /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94011D5D1EB5314600620D7B /* ChatViewController.m */; };
+		94011D681EB5314600620D7B /* MTMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94011D5F1EB5314600620D7B /* MTMapViewController.m */; };
+		94011D6A1EB5314600620D7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94011D611EB5314600620D7B /* main.m */; };
+		94011D6E1EB560AD00620D7B /* MaptennaKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 94011D6D1EB560AD00620D7B /* MaptennaKit.m */; };
+		94011D711EB562DC00620D7B /* MTUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 94011D701EB562DC00620D7B /* MTUser.m */; };
+		9414E6F11EC13FC8003276FD /* MTNodePointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9414E6F01EC13FC8003276FD /* MTNodePointAnnotation.m */; };
+		94273BB41EB6A4D000F3B563 /* MTNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 94273BB31EB6A4D000F3B563 /* MTNode.m */; };
+		94273BB71EB6D0DE00F3B563 /* MTNodeAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 94273BB61EB6D0DE00F3B563 /* MTNodeAnnotation.m */; };
+		942FB31E1E66429000B7AD3D /* GoTennaSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 942FB31C1E66429000B7AD3D /* GoTennaSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9438CA101E673D0100F10C68 /* GoTennaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 942FB31C1E66429000B7AD3D /* GoTennaSDK.framework */; };
+		949D95F41ED1EE82003F78D4 /* MTNodeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 949D95F31ED1EE82003F78D4 /* MTNodeRequest.m */; };
+		949D95F71ED3D3B2003F78D4 /* MTNodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 949D95F61ED3D3B2003F78D4 /* MTNodeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		942FB31B1E66427200B7AD3D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				942FB31E1E66429000B7AD3D /* GoTennaSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3FD13FA7D77FC1EE6E0323E0 /* Pods-Maptenna.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Maptenna.release.xcconfig"; path = "Pods/Target Support Files/Pods-Maptenna/Pods-Maptenna.release.xcconfig"; sourceTree = "<group>"; };
+		7FABD7547A9681C524D5529C /* libPods-Maptenna.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Maptenna.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94011D541EB5314600620D7B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		94011D551EB5314600620D7B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		94011D561EB5314600620D7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94011D581EB5314600620D7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94011D5A1EB5314600620D7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94011D5C1EB5314600620D7B /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		94011D5D1EB5314600620D7B /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		94011D5E1EB5314600620D7B /* MTMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapViewController.h; sourceTree = "<group>"; };
+		94011D5F1EB5314600620D7B /* MTMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMapViewController.m; sourceTree = "<group>"; };
+		94011D601EB5314600620D7B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94011D611EB5314600620D7B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94011D6C1EB560AD00620D7B /* MaptennaKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MaptennaKit.h; path = Kit/MaptennaKit.h; sourceTree = "<group>"; };
+		94011D6D1EB560AD00620D7B /* MaptennaKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MaptennaKit.m; path = Kit/MaptennaKit.m; sourceTree = "<group>"; };
+		94011D6F1EB562DC00620D7B /* MTUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTUser.h; path = Kit/MTUser.h; sourceTree = "<group>"; };
+		94011D701EB562DC00620D7B /* MTUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTUser.m; path = Kit/MTUser.m; sourceTree = "<group>"; };
+		9414E6EF1EC13FC8003276FD /* MTNodePointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTNodePointAnnotation.h; path = Maptenna/Model/MTNodePointAnnotation.h; sourceTree = SOURCE_ROOT; };
+		9414E6F01EC13FC8003276FD /* MTNodePointAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTNodePointAnnotation.m; path = Maptenna/Model/MTNodePointAnnotation.m; sourceTree = SOURCE_ROOT; };
+		94273BB21EB6A4D000F3B563 /* MTNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTNode.h; path = Kit/MTNode.h; sourceTree = "<group>"; };
+		94273BB31EB6A4D000F3B563 /* MTNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTNode.m; path = Kit/MTNode.m; sourceTree = "<group>"; };
+		94273BB51EB6D0DE00F3B563 /* MTNodeAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTNodeAnnotation.h; path = Maptenna/Model/MTNodeAnnotation.h; sourceTree = SOURCE_ROOT; };
+		94273BB61EB6D0DE00F3B563 /* MTNodeAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTNodeAnnotation.m; path = Maptenna/Model/MTNodeAnnotation.m; sourceTree = SOURCE_ROOT; };
+		942FB31C1E66429000B7AD3D /* GoTennaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoTennaSDK.framework; sourceTree = "<group>"; };
+		945FA85E1D9DA85500383DFB /* HelloGoTenna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = HelloGoTenna.app; path = Maptenna.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		949D95F21ED1EE82003F78D4 /* MTNodeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTNodeRequest.h; path = Maptenna/Kit/MTNodeRequest.h; sourceTree = SOURCE_ROOT; };
+		949D95F31ED1EE82003F78D4 /* MTNodeRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTNodeRequest.m; path = Maptenna/Kit/MTNodeRequest.m; sourceTree = SOURCE_ROOT; };
+		949D95F51ED3D3B2003F78D4 /* MTNodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTNodeViewController.h; sourceTree = "<group>"; };
+		949D95F61ED3D3B2003F78D4 /* MTNodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTNodeViewController.m; sourceTree = "<group>"; };
+		AAE1894BF03D76C99DCE496E /* Pods-Maptenna.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Maptenna.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Maptenna/Pods-Maptenna.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		945FA85B1D9DA85500383DFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9438CA101E673D0100F10C68 /* GoTennaSDK.framework in Frameworks */,
+				4FAE66AE31A632A1D3542A58 /* libPods-Maptenna.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		371B5BAC094032A3E73C02DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FABD7547A9681C524D5529C /* libPods-Maptenna.a */,
+				942FB31C1E66429000B7AD3D /* GoTennaSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4AA74A9359526A33A261FF95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AAE1894BF03D76C99DCE496E /* Pods-Maptenna.debug.xcconfig */,
+				3FD13FA7D77FC1EE6E0323E0 /* Pods-Maptenna.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		94011D531EB5314600620D7B /* Maptenna */ = {
+			isa = PBXGroup;
+			children = (
+				94011D541EB5314600620D7B /* AppDelegate.h */,
+				94011D551EB5314600620D7B /* AppDelegate.m */,
+				94011D6B1EB5609700620D7B /* Kit */,
+				94011D5B1EB5314600620D7B /* Controller */,
+				94011D561EB5314600620D7B /* Assets.xcassets */,
+				94011D571EB5314600620D7B /* LaunchScreen.storyboard */,
+				94011D591EB5314600620D7B /* Main.storyboard */,
+				94011D601EB5314600620D7B /* Info.plist */,
+				94011D611EB5314600620D7B /* main.m */,
+			);
+			path = Maptenna;
+			sourceTree = "<group>";
+		};
+		94011D5B1EB5314600620D7B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				94273BB81EB6D0E000F3B563 /* Model */,
+				94011D5E1EB5314600620D7B /* MTMapViewController.h */,
+				94011D5F1EB5314600620D7B /* MTMapViewController.m */,
+				949D95F51ED3D3B2003F78D4 /* MTNodeViewController.h */,
+				949D95F61ED3D3B2003F78D4 /* MTNodeViewController.m */,
+				94011D5C1EB5314600620D7B /* ChatViewController.h */,
+				94011D5D1EB5314600620D7B /* ChatViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		94011D6B1EB5609700620D7B /* Kit */ = {
+			isa = PBXGroup;
+			children = (
+				94011D6C1EB560AD00620D7B /* MaptennaKit.h */,
+				94011D6D1EB560AD00620D7B /* MaptennaKit.m */,
+				94011D6F1EB562DC00620D7B /* MTUser.h */,
+				94011D701EB562DC00620D7B /* MTUser.m */,
+				94273BB21EB6A4D000F3B563 /* MTNode.h */,
+				94273BB31EB6A4D000F3B563 /* MTNode.m */,
+				949D95F21ED1EE82003F78D4 /* MTNodeRequest.h */,
+				949D95F31ED1EE82003F78D4 /* MTNodeRequest.m */,
+			);
+			name = Kit;
+			sourceTree = "<group>";
+		};
+		94273BB81EB6D0E000F3B563 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				94273BB51EB6D0DE00F3B563 /* MTNodeAnnotation.h */,
+				94273BB61EB6D0DE00F3B563 /* MTNodeAnnotation.m */,
+				9414E6EF1EC13FC8003276FD /* MTNodePointAnnotation.h */,
+				9414E6F01EC13FC8003276FD /* MTNodePointAnnotation.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		945FA8551D9DA85500383DFB = {
+			isa = PBXGroup;
+			children = (
+				94011D531EB5314600620D7B /* Maptenna */,
+				945FA85F1D9DA85500383DFB /* Products */,
+				4AA74A9359526A33A261FF95 /* Pods */,
+				371B5BAC094032A3E73C02DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		945FA85F1D9DA85500383DFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				945FA85E1D9DA85500383DFB /* HelloGoTenna.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		945FA85D1D9DA85500383DFB /* Maptenna */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 945FA8751D9DA85500383DFB /* Build configuration list for PBXNativeTarget "Maptenna" */;
+			buildPhases = (
+				9C733ECAC933E29DE4DDB207 /* [CP] Check Pods Manifest.lock */,
+				945FA85A1D9DA85500383DFB /* Sources */,
+				945FA85B1D9DA85500383DFB /* Frameworks */,
+				945FA85C1D9DA85500383DFB /* Resources */,
+				942FB31B1E66427200B7AD3D /* Embed Frameworks */,
+				7EF599B6B5F2A4F9EE79CD4E /* [CP] Embed Pods Frameworks */,
+				FB8B7D3709B1651A2EA82781 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Maptenna;
+			productName = HelloGoTenna;
+			productReference = 945FA85E1D9DA85500383DFB /* HelloGoTenna.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		945FA8561D9DA85500383DFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = goTenna;
+				TargetAttributes = {
+					945FA85D1D9DA85500383DFB = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = V865U9FFCP;
+					};
+				};
+			};
+			buildConfigurationList = 945FA8591D9DA85500383DFB /* Build configuration list for PBXProject "Maptenna" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 945FA8551D9DA85500383DFB;
+			productRefGroup = 945FA85F1D9DA85500383DFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				945FA85D1D9DA85500383DFB /* Maptenna */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		945FA85C1D9DA85500383DFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94011D661EB5314600620D7B /* Main.storyboard in Resources */,
+				94011D641EB5314600620D7B /* Assets.xcassets in Resources */,
+				94011D651EB5314600620D7B /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7EF599B6B5F2A4F9EE79CD4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Maptenna/Pods-Maptenna-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C733ECAC933E29DE4DDB207 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB8B7D3709B1651A2EA82781 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Maptenna/Pods-Maptenna-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		945FA85A1D9DA85500383DFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94011D681EB5314600620D7B /* MTMapViewController.m in Sources */,
+				94273BB41EB6A4D000F3B563 /* MTNode.m in Sources */,
+				949D95F41ED1EE82003F78D4 /* MTNodeRequest.m in Sources */,
+				9414E6F11EC13FC8003276FD /* MTNodePointAnnotation.m in Sources */,
+				94011D711EB562DC00620D7B /* MTUser.m in Sources */,
+				94011D6E1EB560AD00620D7B /* MaptennaKit.m in Sources */,
+				94011D671EB5314600620D7B /* ChatViewController.m in Sources */,
+				94011D6A1EB5314600620D7B /* main.m in Sources */,
+				94011D631EB5314600620D7B /* AppDelegate.m in Sources */,
+				949D95F71ED3D3B2003F78D4 /* MTNodeViewController.m in Sources */,
+				94273BB71EB6D0DE00F3B563 /* MTNodeAnnotation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		94011D571EB5314600620D7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94011D581EB5314600620D7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		94011D591EB5314600620D7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94011D5A1EB5314600620D7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		945FA8731D9DA85500383DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		945FA8741D9DA85500383DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		945FA8761D9DA85500383DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAE1894BF03D76C99DCE496E /* Pods-Maptenna.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Maptenna/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = host.ryans.Maptenna;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		945FA8771D9DA85500383DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FD13FA7D77FC1EE6E0323E0 /* Pods-Maptenna.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "$(SRCROOT)/Maptenna/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = host.ryans.Maptenna;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		945FA8591D9DA85500383DFB /* Build configuration list for PBXProject "Maptenna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				945FA8731D9DA85500383DFB /* Debug */,
+				945FA8741D9DA85500383DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		945FA8751D9DA85500383DFB /* Build configuration list for PBXNativeTarget "Maptenna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				945FA8761D9DA85500383DFB /* Debug */,
+				945FA8771D9DA85500383DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 945FA8561D9DA85500383DFB /* Project object */;
+}
